@@ -1,6 +1,11 @@
 'use client'; // Error components must be Client Components
 
 import { useEffect } from 'react';
+import { Metadata } from 'next';
+
+export const metadata: Metadata = {
+  title: 'Error',
+};
 
 export default function Error({
   error,
